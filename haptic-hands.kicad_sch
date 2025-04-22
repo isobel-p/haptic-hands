@@ -948,6 +948,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push_45deg"
 			(pin_numbers hide)
 			(pin_names
@@ -1119,76 +1264,96 @@
 		)
 	)
 	(junction
-		(at 118.11 114.3)
+		(at 148.59 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "01e54b5c-40eb-45c6-9904-d774d0cbd342")
+		(uuid "0a0e15bd-091e-4bab-924d-0d0d9e9116fb")
 	)
 	(junction
-		(at 128.27 88.9)
+		(at 168.91 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d29974c-1f4d-47b4-bc5d-63f166a3b822")
+		(uuid "19a94672-be4d-4336-bff5-b4cd96172240")
 	)
 	(junction
-		(at 138.43 114.3)
+		(at 91.44 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2d5d7e7f-9fa3-4bd9-af25-31377e379031")
+		(uuid "3cc1f59e-9070-4b18-bbc3-c52fbce3102b")
 	)
 	(junction
-		(at 91.44 76.2)
+		(at 179.07 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41b7776d-9681-4f51-b65e-c8cd82811eeb")
+		(uuid "7f6db661-64d2-4100-b9b9-1c9bde12e2fa")
+	)
+	(junction
+		(at 184.15 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82018b3e-a970-4c09-9835-13eb8b9b3371")
+	)
+	(junction
+		(at 133.35 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b5faab7-814f-4cb4-8a62-d9610839ed58")
 	)
 	(junction
 		(at 118.11 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41cf66b6-0b8c-4a10-890c-ae69a9aba662")
+		(uuid "9d165cc9-3c7e-4e7b-af5e-79c16a614d70")
 	)
 	(junction
-		(at 158.75 88.9)
+		(at 138.43 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "582173ec-dc54-48bb-9841-f09d940abb48")
+		(uuid "9d7892f1-9c00-42bf-8a97-029ce5a34fec")
 	)
 	(junction
-		(at 158.75 114.3)
+		(at 123.19 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a4084b1-c58c-4113-b385-df16af2ac933")
-	)
-	(junction
-		(at 128.27 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77469ec3-4d39-4e93-8655-a3005de36f65")
-	)
-	(junction
-		(at 148.59 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bfb0127-c768-4ae8-97a8-1d72323f0dbb")
+		(uuid "a52dc76d-fdaa-40dc-bc82-6918b372733a")
 	)
 	(junction
 		(at 110.49 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "996bd568-2d7c-4656-b74a-4a0b5f0ee9b3")
+		(uuid "c4feeed8-cd77-4587-8ef7-3ea7fc0ef587")
 	)
 	(junction
-		(at 148.59 114.3)
+		(at 153.67 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b1ee2ca0-9815-4917-94d8-dfab91fb812b")
+		(uuid "f2438e86-45d5-487d-8244-3f5d0c7c1166")
 	)
 	(junction
-		(at 138.43 88.9)
+		(at 163.83 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb2889ed-2540-41e1-95d3-6c65e1cc25d7")
+		(uuid "fbdcd09f-a9d2-46c4-b514-41f534ade315")
+	)
+	(wire
+		(pts
+			(xy 133.35 88.9) (xy 148.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0441b694-6bbe-4949-907a-31f5be9e4a86")
+	)
+	(wire
+		(pts
+			(xy 163.83 88.9) (xy 179.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0728ab0f-1769-455d-9740-db6a8faa739e")
 	)
 	(wire
 		(pts
@@ -1202,87 +1367,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 113.03) (xy 118.11 114.3)
+			(xy 184.15 109.22) (xy 168.91 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1008fd4b-5936-4982-bdf9-0624499e4ac2")
+		(uuid "41011dff-8a72-46ad-b12c-5b9b58fc5926")
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 118.11 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "200ff496-d2a6-4837-975d-d7a112c16518")
-	)
-	(wire
-		(pts
-			(xy 148.59 101.6) (xy 148.59 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2517b0ed-fe00-4cc0-8641-6f098f3962dd")
-	)
-	(wire
-		(pts
-			(xy 158.75 88.9) (xy 168.91 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36a3dc40-8924-466a-ab8a-69268fadca80")
-	)
-	(wire
-		(pts
-			(xy 110.49 114.3) (xy 118.11 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac6d7e1-779e-432b-9bb4-1f929dc2f528")
-	)
-	(wire
-		(pts
-			(xy 86.36 76.2) (xy 91.44 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d80d977-f496-45ee-a7be-b446ffee0af5")
-	)
-	(wire
-		(pts
-			(xy 91.44 76.2) (xy 113.03 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e46953c-6d51-4280-bddc-29083080f444")
-	)
-	(wire
-		(pts
-			(xy 168.91 113.03) (xy 168.91 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40793b84-930d-468e-a450-61680ecd1188")
-	)
-	(wire
-		(pts
-			(xy 86.36 106.68) (xy 86.36 76.2)
+			(xy 86.36 106.68) (xy 86.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1292,53 +1387,63 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 113.03) (xy 128.27 114.3)
+			(xy 118.11 88.9) (xy 133.35 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a375719-68d3-44da-8d5f-f46884455e41")
+		(uuid "52a0c998-491e-45c9-aadb-3dfea6004f16")
 	)
 	(wire
 		(pts
-			(xy 168.91 101.6) (xy 168.91 105.41)
+			(xy 86.36 68.58) (xy 91.44 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c2c0df6-4c07-4e0a-b564-f77640ee198a")
+		(uuid "56e935c7-a109-4b78-9092-279d0142e741")
 	)
 	(wire
 		(pts
-			(xy 110.49 88.9) (xy 110.49 114.3)
+			(xy 153.67 109.22) (xy 138.43 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51afc72f-7d16-4ab5-a4a8-3af03e1291a0")
+		(uuid "5a699083-1d9a-4c59-8f2d-1c6a325c0cd5")
 	)
 	(wire
 		(pts
-			(xy 128.27 88.9) (xy 128.27 93.98)
+			(xy 110.49 88.9) (xy 110.49 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "588c3ad9-bc69-4d0f-ae5a-da728b9fc17e")
+		(uuid "606dde3e-9f8c-4730-8103-ad476eea3d6e")
 	)
 	(wire
 		(pts
-			(xy 158.75 114.3) (xy 168.91 114.3)
+			(xy 91.44 68.58) (xy 118.11 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e6eb1a2-3bf8-4e8b-9422-efe0209b8f9b")
+		(uuid "664a2317-21d1-48d9-bb8e-5a1507e93f46")
+	)
+	(wire
+		(pts
+			(xy 123.19 109.22) (xy 110.49 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa07db1-2439-4d2b-a537-330e1d1252f0")
 	)
 	(wire
 		(pts
@@ -1362,83 +1467,23 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 88.9) (xy 118.11 93.98)
+			(xy 148.59 88.9) (xy 163.83 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e823a3d-b262-4459-bc65-e478a5c75954")
+		(uuid "8717d948-363c-4feb-b51f-305cc2832cb2")
 	)
 	(wire
 		(pts
-			(xy 128.27 101.6) (xy 128.27 105.41)
+			(xy 138.43 109.22) (xy 123.19 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82263c93-7b7d-4e2a-ae67-f06797d86ee5")
-	)
-	(wire
-		(pts
-			(xy 148.59 88.9) (xy 148.59 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89593c82-2424-464f-920f-39ab5eab7f0a")
-	)
-	(wire
-		(pts
-			(xy 158.75 101.6) (xy 158.75 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e8d446a-e806-48e1-b67d-85d7e15f67ac")
-	)
-	(wire
-		(pts
-			(xy 128.27 114.3) (xy 138.43 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9812ef9f-7962-40f2-b93e-170161620885")
-	)
-	(wire
-		(pts
-			(xy 91.44 88.9) (xy 91.44 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a5b26cc-c78f-4d13-bef3-36c507cdc955")
-	)
-	(wire
-		(pts
-			(xy 148.59 88.9) (xy 158.75 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a78020e2-96ab-4fff-8250-b2d1522a5258")
-	)
-	(wire
-		(pts
-			(xy 158.75 88.9) (xy 158.75 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8035bd4-7df7-464d-bd88-f8b9ad61c72c")
+		(uuid "a1d3a5db-883d-45b8-91e5-d6d98624deba")
 	)
 	(wire
 		(pts
@@ -1452,97 +1497,27 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 88.9) (xy 138.43 88.9)
+			(xy 168.91 109.22) (xy 153.67 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0973778-4a86-4c6e-907c-c30b575db44c")
+		(uuid "b2f47c8f-3098-4a38-bc92-c2ec4280f2fc")
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 128.27 114.3)
+			(xy 179.07 88.9) (xy 194.31 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c227d555-7eb0-49fd-8efa-727371d01b8b")
+		(uuid "d2ba45d0-eb4b-491e-beb0-f362f956635a")
 	)
 	(wire
 		(pts
-			(xy 158.75 113.03) (xy 158.75 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6f7f4b2-ab1c-40b8-9183-dbd8a05f4ec6")
-	)
-	(wire
-		(pts
-			(xy 148.59 114.3) (xy 158.75 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7535849-cb27-4730-b3d3-da0ef927307d")
-	)
-	(wire
-		(pts
-			(xy 138.43 88.9) (xy 138.43 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd412c0d-6e28-4684-b40f-b71c9fb80783")
-	)
-	(wire
-		(pts
-			(xy 138.43 114.3) (xy 148.59 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf75b686-0ab7-499a-9e8f-89f70f185114")
-	)
-	(wire
-		(pts
-			(xy 138.43 88.9) (xy 148.59 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d279c0b7-1ab0-427d-8604-dfe9906dbbd0")
-	)
-	(wire
-		(pts
-			(xy 138.43 101.6) (xy 138.43 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5e91742-732f-4d18-bc36-bf8893a16413")
-	)
-	(wire
-		(pts
-			(xy 138.43 113.03) (xy 138.43 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8927236-b745-41f9-b02e-93606f922df1")
-	)
-	(wire
-		(pts
-			(xy 118.11 81.28) (xy 118.11 88.9)
+			(xy 118.11 68.58) (xy 118.11 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1552,64 +1527,44 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 88.9) (xy 128.27 88.9)
+			(xy 199.39 109.22) (xy 184.15 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebf24821-b07c-40f2-9b79-9c2c082c389d")
-	)
-	(wire
-		(pts
-			(xy 148.59 113.03) (xy 148.59 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f81df91f-7690-431a-84fc-8067aca9b6f6")
-	)
-	(wire
-		(pts
-			(xy 168.91 88.9) (xy 168.91 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feedc1fe-b430-40a2-9e69-0e3ef1cb4435")
+		(uuid "eeae024f-6663-4299-8392-3fcb6a9ad025")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 128.27 109.22 0)
+		(lib_id "Device:LED")
+		(at 184.15 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2bfd1b6c-bb92-4579-97d0-ff4ea9d0f6e3")
-		(property "Reference" "R2"
-			(at 130.81 107.9499 0)
+		(uuid "0f992ff9-50aa-455a-a449-d9dbd3f532fd")
+		(property "Reference" "D5"
+			(at 187.96 98.1074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "220Ω"
-			(at 130.81 110.4899 0)
+		(property "Value" "LED"
+			(at 187.96 100.6474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 126.492 109.22 90)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 184.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 109.22 0)
+			(at 184.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,8 +1581,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 128.27 109.22 0)
+		(property "Description" "Light emitting diode"
+			(at 184.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,15 +1591,221 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2293391-fc32-4072-a2c8-718956fb1323")
+			(uuid "e41acdfa-c0a0-402b-92a1-d74fbbe5f82d")
 		)
 		(pin "2"
-			(uuid "8c18a991-695e-437e-a13d-e1c1f96849b5")
+			(uuid "8988e81d-4b69-4d2e-9eb4-4d4389df4b25")
 		)
 		(instances
 			(project "haptic-hands"
 				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
-					(reference "R2")
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 123.19 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16dfae5b-1def-45a3-ad31-1b9b9b7462e6")
+		(property "Reference" "D1"
+			(at 127 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 127 100.6474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ad23b12-2dac-41e5-baa5-5d75e714af7a")
+		)
+		(pin "2"
+			(uuid "c090d128-3bce-4372-a74f-87de0722a178")
+		)
+		(instances
+			(project "haptic-hands"
+				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 115.57 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a131093-181a-41dc-9aee-9d8bbdb1ead9")
+		(property "Reference" "BT1"
+			(at 113.7285 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 113.7285 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
+			(at 114.046 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.046 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1754a44b-ba18-427a-9d50-2c8cd918b648")
+		)
+		(pin "2"
+			(uuid "900e99b4-4848-4827-9174-7b9ce090ada9")
+		)
+		(instances
+			(project "haptic-hands"
+				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 196.85 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e02ea90-366f-4260-b9bc-f6a71e6a638c")
+		(property "Reference" "SW7"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 196.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 196.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 196.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58f400fc-0d6a-4713-82af-b92c37e126ba")
+		)
+		(pin "2"
+			(uuid "1c7b2940-f05b-4626-a00e-0b1d9bd8ce52")
+		)
+		(instances
+			(project "haptic-hands"
+				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -1719,35 +1880,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 118.11 97.79 90)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 151.13 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "43347427-03a1-4a35-8679-8fae7025f0b4")
-		(property "Reference" "D1"
-			(at 121.92 98.1074 90)
+		(uuid "4537bc64-a1dc-4da4-9259-423bc6a11dee")
+		(property "Reference" "SW4"
+			(at 151.13 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 121.92 100.6474 90)
+		(property "Value" "SW_Push_45deg"
+			(at 151.13 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 118.11 97.79 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1915,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 97.79 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,78 +1923,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 118.11 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "441a6041-cf96-417d-96c9-9ae91d6d433c")
-		)
-		(pin "1"
-			(uuid "7551a11d-c6bd-4782-8d05-bc5dfce7440b")
-		)
-		(instances
-			(project ""
-				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44f78154-1fa4-40da-86af-f5a6a3e9a4a2")
-		(property "Reference" "R5"
-			(at 161.29 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220Ω"
-			(at 161.29 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 156.972 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 109.22 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,15 +1933,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7302ed8a-1c03-4c4e-8d83-a98d5a67486d")
+			(uuid "cb4ee6e1-54d1-4cc8-9e79-cf1c37bca242")
 		)
 		(pin "2"
-			(uuid "dd28e8c5-4245-4c88-ae8b-e86e3184ffd7")
+			(uuid "86638685-ad52-42f7-857c-c6f9672e66a0")
 		)
 		(instances
 			(project "haptic-hands"
 				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
-					(reference "R5")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -1860,16 +1949,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 109.22 0)
+		(at 123.19 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "47102f51-8d2c-48a0-8dcf-ac91adcd3561")
-		(property "Reference" "R4"
-			(at 151.13 107.9499 0)
+		(uuid "6bc15720-e841-4822-a0f6-96630d979ad5")
+		(property "Reference" "R1"
+			(at 125.73 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1967,7 @@
 			)
 		)
 		(property "Value" "220Ω"
-			(at 151.13 110.4899 0)
+			(at 125.73 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +1976,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 146.812 109.22 90)
+			(at 121.412 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +1985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 109.22 0)
+			(at 123.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,7 +1994,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 148.59 109.22 0)
+			(at 123.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,10 +2003,216 @@
 			)
 		)
 		(pin "1"
-			(uuid "7eb2e710-5034-45f2-af75-f19ba6220cc6")
+			(uuid "db01e68d-8fac-4891-9c44-0529fa769569")
 		)
 		(pin "2"
-			(uuid "9aad1783-80f2-441a-8d7a-663c0801e35d")
+			(uuid "c04b91c8-0630-4422-856a-d53b9ccacd29")
+		)
+		(instances
+			(project "haptic-hands"
+				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 135.89 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83176eed-f6f1-49a9-9c37-b6bfe7224cc8")
+		(property "Reference" "SW3"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5493a0aa-f404-48d9-9d7a-cefa294cc377")
+		)
+		(pin "2"
+			(uuid "a52d360c-5fff-4aae-ab4e-d5900848dbb7")
+		)
+		(instances
+			(project "haptic-hands"
+				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 181.61 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "874b6cc9-b07e-41e0-85ca-40bb496dd1ba")
+		(property "Reference" "SW6"
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 181.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 181.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "821faaec-89f2-479d-bd99-5c3aaff1902a")
+		)
+		(pin "2"
+			(uuid "edae75b2-ddd5-4503-ba3f-be6ff915e685")
+		)
+		(instances
+			(project "haptic-hands"
+				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a4ddf38-ca41-4c49-9952-5ca988148e98")
+		(property "Reference" "R4"
+			(at 171.45 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 171.45 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 167.132 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bf54e0a-b4ea-45e3-a2e3-093c3a9399df")
+		)
+		(pin "2"
+			(uuid "83bc58af-2229-466f-931e-3dd76146421c")
 		)
 		(instances
 			(project "haptic-hands"
@@ -1929,35 +2224,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 168.91 109.22 0)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 166.37 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d01fbe7-1c3e-4df1-abc0-1dc11c0cc172")
-		(property "Reference" "R6"
-			(at 171.45 107.9499 0)
+		(uuid "8aa6b999-63a1-4442-9ed2-1cab3e24b09b")
+		(property "Reference" "SW5"
+			(at 166.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "220Ω"
-			(at 171.45 110.4899 0)
+		(property "Value" "SW_Push_45deg"
+			(at 166.37 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 167.132 109.22 90)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +2259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 109.22 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,8 +2267,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 168.91 109.22 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,153 +2277,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed24907e-42e1-43da-8055-c1a920e3581e")
+			(uuid "49562305-a724-4f00-8ceb-bcede2467f92")
 		)
 		(pin "2"
-			(uuid "efbdf173-32f9-4aa5-a8c4-1d8af843672b")
+			(uuid "da61a29f-64dd-4ea0-b60a-1c59585763a9")
 		)
 		(instances
 			(project "haptic-hands"
 				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 115.57 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f4c5deb-6d34-4354-963f-e18770f84b70")
-		(property "Reference" "BT1"
-			(at 113.7285 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 113.7285 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
-			(at 114.046 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.046 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 115.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e60d8ea-e887-4c37-85d6-7ebe0faa25da")
-		)
-		(pin "2"
-			(uuid "cedb28d0-52ca-4c96-9bf1-74642ef99f7c")
-		)
-		(instances
-			(project ""
-				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 158.75 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d6e6415-dd49-481c-956e-ad1d8a50fc45")
-		(property "Reference" "D5"
-			(at 162.56 98.1074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 162.56 100.6474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 158.75 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 158.75 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "805e5915-4e97-4c19-a7bf-197ee8a0ff45")
-		)
-		(pin "1"
-			(uuid "77418793-4ddf-4ab5-9644-ed03dd14986e")
-		)
-		(instances
-			(project "haptic-hands"
-				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
-					(reference "D5")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -2208,87 +2363,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 168.91 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdefe143-3463-4961-89c6-24aebc365434")
-		(property "Reference" "D6"
-			(at 172.72 98.1074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 172.72 100.6474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 168.91 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 168.91 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d1c6b53-57c2-41f6-8f9a-b4482235fa75")
-		)
-		(pin "1"
-			(uuid "c698d8af-290b-468d-bb13-d0be5d69df58")
-		)
-		(instances
-			(project "haptic-hands"
-				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 138.43 109.22 0)
+		(at 199.39 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c7c8be34-4c94-4cb8-93f4-e6d7941e6724")
-		(property "Reference" "R3"
-			(at 140.97 107.9499 0)
+		(uuid "a0e74b93-b03d-4ea4-8126-e513b7388fd1")
+		(property "Reference" "R6"
+			(at 201.93 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2382,7 @@
 			)
 		)
 		(property "Value" "220Ω"
-			(at 140.97 110.4899 0)
+			(at 201.93 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2391,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 136.652 109.22 90)
+			(at 197.612 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2400,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 109.22 0)
+			(at 199.39 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +2409,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 109.22 0)
+			(at 199.39 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,48 +2418,50 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d1fde1e-9acf-41ea-a2f2-aca452342a69")
+			(uuid "602a4ba5-fd84-49b3-b8d5-bb4b2f911394")
 		)
 		(pin "2"
-			(uuid "e9b88729-f2bc-4061-9516-93dd6bf1056b")
+			(uuid "2f854162-8f3f-4ab9-88ce-867c423e4973")
 		)
 		(instances
 			(project "haptic-hands"
 				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 115.57 78.74 0)
+		(lib_id "Switch:SW_Push")
+		(at 91.44 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb44be36-ab8c-4a86-a479-191f9c5644ea")
+		(uuid "b8a9a47c-1037-48c7-8f08-8ee1a3066b35")
 		(property "Reference" "SW1"
-			(at 115.57 71.12 0)
+			(at 92.71 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push_45deg"
-			(at 115.57 73.66 0)
+		(property "Value" "SW_Push"
+			(at 92.71 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 115.57 78.74 0)
+			(at 86.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 78.74 0)
+			(at 86.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,8 +2478,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 115.57 78.74 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,15 +2488,85 @@
 			)
 		)
 		(pin "2"
-			(uuid "335a3dab-7a68-4d84-a3ec-85e1996cf26e")
+			(uuid "45a6fd76-fcf3-4c9f-b891-628bb484fe89")
 		)
 		(pin "1"
-			(uuid "63b32606-a9bc-4745-9c91-f94f64051c0c")
+			(uuid "cdb5bcc5-0492-477e-8c65-42ba08cf575e")
 		)
 		(instances
 			(project ""
 				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfa02781-fd5e-470e-afe7-cb136a19f423")
+		(property "Reference" "R3"
+			(at 156.21 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 156.21 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 151.892 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d18d543-e4c3-4580-b1f3-c97dc91461d4")
+		)
+		(pin "2"
+			(uuid "58bce4d2-b152-481a-8c5a-8221c7d7071d")
+		)
+		(instances
+			(project "haptic-hands"
+				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2487,16 +2644,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 148.59 97.79 90)
+		(at 199.39 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dbe0b9bf-ac71-4662-8e08-95ab208fa425")
-		(property "Reference" "D4"
-			(at 152.4 98.1074 90)
+		(uuid "dc9aa62d-0baa-4cae-ad67-0651ecaf04f2")
+		(property "Reference" "D6"
+			(at 203.2 98.1074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +2662,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 152.4 100.6474 90)
+			(at 203.2 100.6474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,7 +2671,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 148.59 97.79 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2680,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 97.79 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +2689,147 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 148.59 97.79 0)
+			(at 199.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc99455e-a652-4138-afed-cd883d1e9fba")
+		)
+		(pin "2"
+			(uuid "2ba76864-54f0-439c-acfb-1f33c9d86082")
+		)
+		(instances
+			(project "haptic-hands"
+				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 153.67 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0e2170b-285e-4a99-b44e-30d457d57cbf")
+		(property "Reference" "D3"
+			(at 157.48 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 157.48 100.6474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b72a0077-90e9-47dd-a29c-bb852c399f08")
+		)
+		(pin "2"
+			(uuid "fbb74597-e1ee-42e9-9458-5ebef34d6450")
+		)
+		(instances
+			(project "haptic-hands"
+				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 91.44 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e38acc75-8ee5-4491-8086-d9e368213a7f")
+		(property "Reference" "SW8"
+			(at 92.71 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 92.71 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 86.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,10 +2838,148 @@
 			)
 		)
 		(pin "2"
-			(uuid "bacb94b3-5793-4ebe-86a8-e2fbd558e51f")
+			(uuid "17e20efd-a6d2-4f36-95be-a946bfcaa78c")
 		)
 		(pin "1"
-			(uuid "24c91d39-67a6-4738-b815-e8041577c475")
+			(uuid "efe9788a-f7fb-4e55-8602-a9eaa89774c0")
+		)
+		(instances
+			(project "haptic-hands"
+				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 120.65 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6f2e9e0-2cc7-4c90-9e58-303a4903121f")
+		(property "Reference" "SW2"
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc35076e-0940-4805-9732-0fe431720435")
+		)
+		(pin "2"
+			(uuid "385459c8-5838-4687-ac46-8cb4ff4e75b6")
+		)
+		(instances
+			(project "haptic-hands"
+				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 168.91 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea7081de-a949-4a14-abc3-aef5bff7ec15")
+		(property "Reference" "D4"
+			(at 172.72 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 172.72 100.6474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64739ea5-618b-4e3e-bc6e-4d1e81d3b446")
+		)
+		(pin "2"
+			(uuid "268e3ffb-25ce-45be-91f5-d1e337ad29aa")
 		)
 		(instances
 			(project "haptic-hands"
@@ -2556,35 +2991,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 128.27 97.79 90)
+		(lib_id "Device:R")
+		(at 184.15 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dbe2edf6-e78b-4815-af3f-7a0da88cbf0a")
-		(property "Reference" "D2"
-			(at 132.08 98.1074 90)
+		(uuid "eccf86c8-31d0-465c-9633-50228e276c12")
+		(property "Reference" "R5"
+			(at 186.69 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 132.08 100.6474 90)
+		(property "Value" "220Ω"
+			(at 186.69 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 128.27 97.79 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 182.372 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +3028,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 97.79 0)
+			(at 184.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,25 +3036,95 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 128.27 97.79 0)
+		(property "Description" "Resistor"
+			(at 184.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "de4da26c-9c9d-4385-9232-3bfcd4fff356")
 		)
 		(pin "1"
-			(uuid "d0dfc6f2-060d-4284-9279-3748484e0b01")
+			(uuid "4619974c-cf94-4469-ac2a-8a2b452bcca4")
+		)
+		(pin "2"
+			(uuid "893a0ad2-4f16-42ac-8ccd-aee18cd8e1c4")
 		)
 		(instances
 			(project "haptic-hands"
 				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
-					(reference "D2")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eef63c94-548f-4c44-bad1-69a82b099aac")
+		(property "Reference" "R2"
+			(at 140.97 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 140.97 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 136.652 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c76049e-582d-4e75-9e5e-bc46a17ffbde")
+		)
+		(pin "2"
+			(uuid "447e0358-35c4-426e-aad3-f6555cf86bc2")
+		)
+		(instances
+			(project "haptic-hands"
+				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2634,8 +3139,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e101fc84-1d94-472f-b648-b5cf56725bd3")
-		(property "Reference" "D3"
+		(uuid "feabc49f-cf44-4976-92d2-f88de43c19a5")
+		(property "Reference" "D2"
 			(at 142.24 98.1074 90)
 			(effects
 				(font
@@ -2680,86 +3185,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "c294f78e-009f-428a-87cc-3dbc94a37103")
-		)
 		(pin "1"
-			(uuid "9c46387c-15d1-464f-99e1-44d41b779e48")
+			(uuid "174151d6-5c59-4e61-a43e-3efc2469f22d")
+		)
+		(pin "2"
+			(uuid "85a5af5f-cc5a-44e0-a2f0-124ab66de72d")
 		)
 		(instances
 			(project "haptic-hands"
 				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7fd3b37-f1d8-45c7-95af-79a7c93da613")
-		(property "Reference" "R1"
-			(at 120.65 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220Ω"
-			(at 120.65 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 116.332 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d64e0ea-0357-4518-99fb-c5875e56a36d")
-		)
-		(pin "2"
-			(uuid "ac063cd7-4c76-4ff9-b398-367c7f83f388")
-		)
-		(instances
-			(project ""
-				(path "/c3461cea-c90d-409f-9d6a-9c571769a5d9"
-					(reference "R1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
