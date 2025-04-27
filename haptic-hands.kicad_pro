@@ -469,7 +469,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "haptic-hands.step",
       "svg": "./",
       "vrml": ""
     },
