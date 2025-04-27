@@ -1,6 +1,8 @@
 # haptic-hands
 > A PCB fidget toy with haptic feedback for ultimate satisfaction. Good to help you relax, or somewhere to put your hands in an awkward social encounter.
 
+Want a better viewing experience? [Read it here instead.](https://isobel-p.loves-being-a.dev/haptic-hands)
+
 ![Final schematic of the PCB.](image.png)
 *(note to Journey voters: I forgot to upload my last update - oops... I finally arranged all the components and routed the PCB. I didn't get time to add silkscreen designs but I'm finally happy with how it turned out.)*
 
